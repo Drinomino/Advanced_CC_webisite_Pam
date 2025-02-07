@@ -1,0 +1,256 @@
+html {
+    background-color: rgb(255, 87, 146);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav{
+    font-size: 25px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 87, 146);
+    
+}
+
+
+
+    #nav li{
+        display: inline-flex;
+        margin-left: 30px;
+        margin-right: 30px; 
+        font-weight: bold;
+
+    }
+
+    #nav a {
+        text-decoration: none;
+        color: rgb(0, 155, 239);
+        background-color: rgb(0, 255, 76);
+        padding: 15px;
+        border-radius: 10px;
+        /* margin: 30px; */
+    }
+
+    #nav a:hover{
+        color: rgb(0, 255, 76);
+        background-color: rgb(0, 155, 239);
+    }
+
+.float-img-left {
+        float: left;
+        width: 30%;
+        max-width: 300px;
+        margin-left: 20px;
+        /* height: auto;
+        margin-right: 1em;
+        margin-bottom: .25em; */
+        
+}
+
+.logo{
+    width: 30%;
+    max-width: 250px;
+    
+}
+
+.intro {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    /* margin-right: 40px; */
+    background-color: rgb(0, 211, 244);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#onec-grid{
+	padding:2em;
+	display: grid;
+	grid-template-columns: 300px 150px 300px;
+	grid-template-rows: 150px 150px 150px 150px 300px 300px 300px;
+	gap: 10px;
+    justify-content: center;
+}
+    #onec-grid p{
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: bold;
+        background-color: rgb(0, 211, 244);
+        padding: 10px;
+        padding-top: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #onec-grid img{
+        width: 100%;
+        height: 100%;
+    }
+    #onec-grid video{
+        width: 100%;
+        height: 100%;
+    }
+
+    #nickgraph{
+        grid-column: 1/ span 2;
+        grid-row: 1;
+    }
+
+    #td{
+        grid-column: 1/ span 2;
+        grid-row: 4;
+    }
+
+    #kibble{
+        grid-column: 3;
+        grid-row: 1 / span 2 ;
+    }
+    #greensplash{
+        grid-column: 3;
+        grid-row: 3 / span 2  ;
+    }
+
+    #visual{
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 2 ;  
+    }
+
+    #tdshow{
+        grid-column: 2 / span 2;
+        grid-row: 5 
+    }
+
+    #text{
+        grid-column: 1 / span 2;
+        grid-row: 6 / span 2;
+    }
+
+#projects-grid{
+    border: 1px solid darkolivegreen;
+	padding:10px;
+	display: grid;
+	grid-template-columns: 100px 500px 100px;
+	grid-template-rows: 400px 300px;
+	gap: 5px;
+    justify-content: center;
+    
+        
+}
+    #projects-grid img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #star{
+        grid-column: 2;
+        grid-row: 2; 
+    }
+
+    #onec{
+		
+        grid-column: 1;
+        grid-row: 1;
+        
+    }
+
+.grid-layout{
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: 500px 500px 500px 500px;
+        grid-template-areas: 
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i j";
+        margin: 20px;
+        gap:20px;
+        color: aliceblue;
+        text-align: center;
+        font-size: 20px;
+        justify-content: center;
+        
+ }
+    
+    
+        .a{
+            grid-area: a;
+            
+        }
+    
+        .b{
+            
+            grid-area: b;
+            
+        }
+    
+        .c{
+            
+            grid-area: c;
+        }
+    
+        .d{
+            
+            grid-area: d;
+        }
+    
+        .e{
+            
+            grid-area: e;
+        }
+    
+        .f{
+            
+            grid-area: f;
+        }
+    
+        .g{
+            
+            grid-area: g;
+        }
+
+footer{
+    text-align: center;
+}
+
+    footer p{
+       
+        font-size: 30px;
+        font-weight: bold;
+        display: inline-flex;
+        border-radius: 10px;
+        color: rgb(0, 155, 239);
+        background-color: rgb(0, 255, 76);
+        padding: 10px;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: rgb(0, 155, 239);
+        /* font-size: 30px;
+        font-weight: bold;
+        display: inline-flex; */
+    }
+    footer :hover{
+        color: rgb(0, 255, 76);
+        background-color: rgb(0, 155, 239);
+    }
+
+.container{
+    flex-wrap: wrap;
+    align-items: center;
+}
+    .container img{
+        width: 40%;
+        height: 40%;
+    }
+
+#contact{
+    width: 20%;
+    position:fixed;
+    bottom:0px;
+    left:78%;
+    min-width: 110px;
+}
