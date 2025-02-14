@@ -12,10 +12,6 @@ html {
     
 }
 
-iframe{
-    width: 50%;
-    height: 50%;
-}
 
 
     #nav li{
@@ -157,6 +153,25 @@ iframe{
         grid-column: 1;
         grid-row: 1;
         
+    }
+
+.gridnewp5{
+    border: 1px solid darkolivegreen;
+	padding:10px;
+	display: grid;
+	grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px 500px 500px;
+	gap: 20px;
+    justify-content: center;
+}
+    .gridnewp5 iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .i{
+        grid-column: 1;
+        grid-row: 1; 
     }
 
 .grid-layout{
