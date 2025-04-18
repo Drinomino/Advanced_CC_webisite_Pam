@@ -7,6 +7,13 @@ function goNext() {
   window.location.href = 'start.html';
 
 }
+const images = {
+  corgi: "corgi.webp",
+  goldenretriever: "golden.webp",
+  bordercollie: "bordercollie.webp",
+  doberman: "doberman.jpg",
+  Yorkie: "yorki.webp"
+};
 
 const score = {
     corgi: 0,
@@ -32,6 +39,7 @@ const score = {
   function showResult() {
     const topResult = Object.keys(score).reduce((a, b) => score[a] > score[b] ? a : b);
     const resultText = results[topResult];
+    const imageUrl = images[topResult];
 
     // Save to localStorage
   const quizResult = {
@@ -43,6 +51,7 @@ const score = {
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('result').style.display = 'block';
     document.getElementById('result').textContent = resultText;
+    document.getElementById('result-image').src = imageUrl;
     document.getElementById('nextBtn').style.display = 'block';
   }
   
