@@ -86,6 +86,13 @@ button:hover {
     background-color: #ff6f00;
     }
 
+    #result-image{
+        max-width: 300px; 
+        display: block; 
+        margin-top: 20px;
+        width: 50%;
+    }
+
 .clicked {
     background-color:  #ff6f00;
     color: white;
