@@ -1,0 +1,92 @@
+@font-face {
+    font-family: PorkyFont;
+    src: url(PORKYS_.TTF);
+}
+
+html{
+    background-color: rgb(116, 213, 255); 
+    font-family: PorkyFont;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(26, 100%, 50%);
+}
+    a :hover{
+        color: #ffffff;
+        text-decoration: none;
+        
+    }
+
+p{
+    
+    background-color: rgb(109, 179, 210);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 17px;
+    
+}
+body {
+    background-color: rgb(199, 238, 255);
+    border-radius: 17px;
+    padding: 10px;
+}
+h1 {
+
+    font-size: 100px;
+    color: rgb(36, 36, 144);
+    font-family: PorkyFont;
+    text-align: center;
+    text-decoration: none;
+}
+
+button{
+    color: #ff6f00;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 17px;
+    font-family: PorkyFont;
+    /* margin: 30px; */
+}
+button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ff6f00;
+}
+
+.question { 
+    margin-bottom: 20px;
+    font-family: PorkyFont;
+    
+ }
+    
+    
+#result { 
+    display: none; font-size: 1.2em; margin-top: 20px;
+    background-color: rgb(109, 179, 210);
+    border-radius: 17px;
+
+}
+
+#nextBtn {
+    display:none;
+    color: #ff6f00;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 17px;
+    font-family: PorkyFont;
+    text-align: center;
+}
+    #nextBtn :hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ff6f00;
+    }
+
+.clicked {
+    background-color:  #ff6f00;
+    color: white;
+  }

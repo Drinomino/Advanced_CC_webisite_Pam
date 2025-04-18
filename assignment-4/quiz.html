@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dog! Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<h1>🐾 What dog are you <spun id="val1"></spun> ? 🐾</h1>
+  <div id="quiz">
+    <div class="question">
+      <p>🐾1. What do you do in your free time?</p>
+      <button onclick="addScore('corgi')">Tea time</button>
+      <button onclick="addScore('goldenretriever')">Spend time with family</button>
+      <button onclick="addScore('bordercollie')">Work!</button>
+      <button onclick="addScore('doberman')">Intimidate People</button>
+      <button onclick="addScore('Yorkie')">Go to the spa</button>
+    </div>
+
+    <div class="question">
+      <p>2. Pick a color !🐾</p>
+      <button onclick="addScore('corgi')">Orange</button>
+      <button onclick="addScore('goldenretriever')">Blue</button>
+      <button onclick="addScore('bordercollie')">Green</button>
+      <button onclick="addScore('doberman')">Black</button>
+      <button onclick="addScore('Yorkie')">Pink</button>
+    </div>
+
+    <div class="question">
+      <p>🐾3. Favorate Music Genre</p>
+      <button onclick="addScore('corgi')">Clasical</button>
+      <button onclick="addScore('goldenretriever')">Contrey</button>
+      <button onclick="addScore('bordercollie')">Blue Grass</button>
+      <button onclick="addScore('doberman')">Death Metal</button>
+      <button onclick="addScore('Yorkie')">Pop</button>
+    </div>
+
+    <div class="question">
+      <p>4. what's your Dream Career!?🐾</p>
+      <button onclick="addScore('corgi')">Old Timey Detective</button>
+      <button onclick="addScore('goldenretriever')">Youth Soccer coach</button>
+      <button onclick="addScore('bordercollie')">Farmer!</button>
+      <button onclick="addScore('doberman')">Prison Guard</button>
+      <button onclick="addScore('Yorkie')">Model</button>
+    </div>
+
+    <div class="question">
+      <p>🐾5. Go to food ?</p>
+      <button onclick="addScore('corgi')">Fish n Chips</button>
+      <button onclick="addScore('goldenretriever')">Hotdog</button>
+      <button onclick="addScore('bordercollie')">Grille cheese</button>
+      <button onclick="addScore('doberman')">Rocks</button>
+      <button onclick="addScore('Yorkie')">Salad</button>
+    </div>
+
+    <div class="question">
+      <p>6. A city you enjoy 🐾</p>
+      <button onclick="addScore('corgi')">London</button>
+      <button onclick="addScore('goldenretriever')">St. Paul</button>
+      <button onclick="addScore('bordercollie')">Anywhere with a farm</button>
+      <button onclick="addScore('doberman')">Chicago</button>
+      <button onclick="addScore('Yorkie')">LA!!!!!!</button>
+    </div>
+
+    <div class="question">
+      <p>🐾7. How would you describe yourself?</p>
+      <button onclick="addScore('corgi')">Fun and silly</button>
+      <button onclick="addScore('goldenretriever')">Loyal</button>
+      <button onclick="addScore('bordercollie')">Hard Working</button>
+      <button onclick="addScore('doberman')">Intimidating</button>
+      <button onclick="addScore('Yorkie')">Glamorous</button>
+    </div>
+
+    <div class="question">
+      <p>8. What ice cream would you choose?🐾</p>
+      <button onclick="addScore('corgi')">Orange sherbet</button>
+      <button onclick="addScore('goldenretriever')">Vanilla</button>
+      <button onclick="addScore('bordercollie')">Mint chocolate chip</button>
+      <button onclick="addScore('doberman')">I don't like icecream.</button>
+      <button onclick="addScore('Yorkie')">Bubble gum</button>
+    </div>
+    <button onclick="showResult()">Get My Result</button>
+    <!-- <a href="results.html">Next page</a> -->
+  
+  </div>
+
+  <div id="result">
+    <a href="index.html">Start Over</a>
+  </div>
+
+  <button id="nextBtn" onclick="goNext()">Start over!</button>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
