@@ -1,0 +1,84 @@
+@font-face {
+  font-family: PorkyFont;
+  src: url(../fonts/PORKYS_.TTF);
+}
+
+html{
+  font-family: PorkyFont;
+}
+
+body {
+    /* background-color: aqua; */
+    background-image: url("../images/chip-backdrop.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; 
+}
+
+h1{
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 89, 0);
+  padding: 10px;
+  /* margin-left: 100px; */
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 17px;
+  text-align: center;
+}
+
+h2{
+    
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 89, 0);
+  padding: 10px;
+  /* margin-left: 100px; */
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 17px;
+  text-align: center;
+  
+}
+
+#chip{
+  width: 20%;
+  position:fixed;
+  bottom:0px;
+  left:70%;
+  min-width: 200px;
+}
+
+button{
+  background-color: #04aa6d00;
+  border: none;
+  /* visibility: hidden; */
+}
+  button img{
+    width: 20%;
+  }
+
+  button :hover{
+    cursor: pointer;
+    /* visibility: visible; */
+    animation: rotateLink 2s forwards;
+  }
+
+  @keyframes rotateLink {
+    from {
+        
+        transform: rotate(360deg);
+    }
+    25%{
+        
+        transform: rotate(180deg);
+
+    }
+    50% {
+        
+        transform: rotate(360deg);
+    }
+    to {
+        
+        transform: rotate(0deg);
+    }
+   
+}
