@@ -47,6 +47,10 @@ h2{
   min-width: 200px;
 }
 
+.container {
+  flex-wrap: wrap;
+}
+
 button{
   background-color: #04aa6d00;
   border: none;
