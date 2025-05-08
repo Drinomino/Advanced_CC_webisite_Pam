@@ -42,27 +42,48 @@ h2{
 #chip{
   width: 20%;
   position:fixed;
-  bottom:0px;
+  bottom: 70px;
   left:70%;
   min-width: 200px;
 }
 
+
+#fetchFactBtn{
+  display: flex;
+  flex-wrap: wrap;
+  /* visibility: hidden; */
+  /* flex-direction: row; */
+} 
+  #fetchFactBtn img{
+    width: 100px;
+
+  }
+  #fetchFactBtn :hover{
+    visibility: visible;
+  }
+  
+
+
 .container {
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 button{
   background-color: #04aa6d00;
+  color: blue;
   border: none;
   /* visibility: hidden; */
 }
   button img{
     width: 20%;
+    opacity: 0;
   }
 
   button :hover{
     cursor: pointer;
     /* visibility: visible; */
+    opacity: 1;
     animation: rotateLink 2s forwards;
   }
 
@@ -85,4 +106,17 @@ button{
         transform: rotate(0deg);
     }
    
+
+    
+}
+
+footer{
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 89, 0);
+  position:fixed;
+  font-size: large;
+  bottom:0px;
+  padding: 10px;
+  border-radius: 17px;
+  /* left:28%; */
 }
