@@ -24,6 +24,7 @@ h1{
   margin-right: 30%;
   border-radius: 17px;
   text-align: center;
+  
 }
 
 h2{
@@ -38,6 +39,13 @@ h2{
   text-align: center;
   
 }
+a {
+  text-decoration: none;
+  color: rgb(255, 89, 0);;
+}
+  a:hover{
+    color: rgb(255, 217, 0);
+  }
 
 #chip{
   width: 20%;
@@ -113,12 +121,26 @@ button{
     
 }
 
+#backbutt{
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 89, 0);
+  position:fixed;
+  top:0px;
+  padding: 10px;
+  border-radius: 17px;
+  font-size: 30px;
+}
+  #backbutt:hover{
+    background-color: rgb(255, 89, 0);
+  }
+
 footer{
   background-color: rgb(255, 217, 0);
   color: rgb(255, 89, 0);
   position:fixed;
   font-size: large;
   bottom:0px;
+  font-size: 20px;
   padding: 10px;
   border-radius: 17px;
   /* left:28%; */
