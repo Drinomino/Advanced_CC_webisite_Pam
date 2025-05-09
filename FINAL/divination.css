@@ -73,11 +73,14 @@ button{
   background-color: #04aa6d00;
   color: blue;
   border: none;
+  padding: 30px;
+  margin-right: 10%;
   /* visibility: hidden; */
 }
   button img{
     width: 20%;
     opacity: 0;
+
   }
 
   button :hover{
